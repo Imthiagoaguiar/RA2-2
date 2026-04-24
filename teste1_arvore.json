@@ -1,0 +1,200 @@
+{
+  "tipo": "programa",
+  "filhos": [
+    {
+      "tipo": "bloco",
+      "filhos": [
+        {
+          "tipo": "expr",
+          "filhos": [
+            {
+              "tipo": "num",
+              "valor": "3.0"
+            },
+            {
+              "tipo": "num",
+              "valor": "2.0"
+            }
+          ],
+          "op": "+"
+        },
+        {
+          "tipo": "expr",
+          "filhos": [
+            {
+              "tipo": "num",
+              "valor": "10.5"
+            },
+            {
+              "tipo": "num",
+              "valor": "4.5"
+            }
+          ],
+          "op": "-"
+        },
+        {
+          "tipo": "expr",
+          "filhos": [
+            {
+              "tipo": "num",
+              "valor": "2.5"
+            },
+            {
+              "tipo": "num",
+              "valor": "4.0"
+            }
+          ],
+          "op": "*"
+        },
+        {
+          "tipo": "expr",
+          "filhos": [
+            {
+              "tipo": "num",
+              "valor": "9.0"
+            },
+            {
+              "tipo": "num",
+              "valor": "2.0"
+            }
+          ],
+          "op": "|"
+        },
+        {
+          "tipo": "expr",
+          "filhos": [
+            {
+              "tipo": "num",
+              "valor": "9"
+            },
+            {
+              "tipo": "num",
+              "valor": "2"
+            }
+          ],
+          "op": "/"
+        },
+        {
+          "tipo": "expr",
+          "filhos": [
+            {
+              "tipo": "num",
+              "valor": "10"
+            },
+            {
+              "tipo": "num",
+              "valor": "3"
+            }
+          ],
+          "op": "%"
+        },
+        {
+          "tipo": "expr",
+          "filhos": [
+            {
+              "tipo": "num",
+              "valor": "2.0"
+            },
+            {
+              "tipo": "num",
+              "valor": "8"
+            }
+          ],
+          "op": "^"
+        },
+        {
+          "tipo": "mem_store",
+          "valor": "20.0",
+          "nome": "SOMA"
+        },
+        {
+          "tipo": "mem_load",
+          "nome": "SOMA"
+        },
+        {
+          "tipo": "expr",
+          "filhos": [
+            {
+              "tipo": "num",
+              "valor": "3.0"
+            },
+            {
+              "tipo": "expr",
+              "filhos": [
+                {
+                  "tipo": "num",
+                  "valor": "2.0"
+                },
+                {
+                  "tipo": "num",
+                  "valor": "4.0"
+                }
+              ],
+              "op": "*"
+            }
+          ],
+          "op": "+"
+        },
+        {
+          "tipo": "expr",
+          "filhos": [
+            {
+              "tipo": "expr",
+              "filhos": [
+                {
+                  "tipo": "num",
+                  "valor": "5.0"
+                },
+                {
+                  "tipo": "num",
+                  "valor": "3.0"
+                }
+              ],
+              "op": "+"
+            },
+            {
+              "tipo": "expr",
+              "filhos": [
+                {
+                  "tipo": "num",
+                  "valor": "2.0"
+                },
+                {
+                  "tipo": "num",
+                  "valor": "3.0"
+                }
+              ],
+              "op": "*"
+            }
+          ],
+          "op": ">"
+        },
+        {
+          "tipo": "laco",
+          "n": "3",
+          "filhos": [
+            {
+              "tipo": "bloco",
+              "filhos": [
+                {
+                  "tipo": "expr",
+                  "filhos": [
+                    {
+                      "tipo": "num",
+                      "valor": "2.0"
+                    },
+                    {
+                      "tipo": "num",
+                      "valor": "2.0"
+                    }
+                  ],
+                  "op": "*"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
