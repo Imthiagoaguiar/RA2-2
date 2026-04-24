@@ -1,6 +1,6 @@
 # Fase 2 — Analisador Sintático LL(1)
 
-**Instituição:** [Nome da Instituição]  
+**Instituição:** Pontifícia Universidade Católica do Paraná - PUCPR 
 **Disciplina:** Linguagens Formais e Autômatos  
 **Professor:** Frank de Alcantara  
 **Ano:** 2026  
